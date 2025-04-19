@@ -1,3 +1,14 @@
+buildscript{
+    val kotlin_version = "1.6.10"
+    repositories{
+        google()
+        mavenCentral()
+    }
+    dependencies{
+       
+    }
+}
+
 allprojects {
     repositories {
         google()
